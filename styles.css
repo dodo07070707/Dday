@@ -20,6 +20,7 @@ body {
     align-items: center;
     font-family: 'YdestreetB';
     height : 100%;
+    padding-inline: 2rem;
 }
 
 .content {
@@ -38,6 +39,16 @@ body {
 
 .sizedbox_toptitle{
     height: 80px;
+    color:transparent;
+}
+
+.sizedbox_topicon{
+    height: 80px;
+    color:transparent;
+}
+
+.sizedbox_top{
+    height: 870px;
     color:transparent;
 }
 
@@ -183,4 +194,14 @@ body {
 
 .ksat_outframe{
     width: 436px;
+}
+
+.icons{
+    width: 100%;
+    gap: 0.5rem;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
 }
