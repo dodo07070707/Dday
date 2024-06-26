@@ -23,6 +23,60 @@ body {
     padding-inline: 2rem;
 }
 
+a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+.sizedbox_topDday{
+    height: 460px;
+    color:transparent;
+}
+
+.body_setting{
+    display:flex;
+    flex-direction: column;
+    background:  linear-gradient(135deg, rgba(33.97, 0, 242.66, 0.50) 0%, rgba(122.97, 0, 166.17, 0.50) 44%, rgba(202.71, 0, 0, 0.50) 100%);
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'YdestreetB';
+    height : 100%;
+    width: 100%;
+    padding-inline: 2rem;
+}
+
+.colorfilter_black{
+    background : black;
+    height: 100%;
+    width: 100%;
+}
+
+.ddaytouched_day{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 1.50px;
+    word-wrap: break-word;
+    text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.7);
+}
+
+.ddaytouched{
+    width: 573px;
+    height: 22px;
+    text-align: center;
+    color: white;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 6px;
+    word-wrap: break-word;
+    text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.7);
+}
+
 .content {
     text-align: center;
     color: white;
@@ -37,10 +91,188 @@ body {
     text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
 }
 
+.enterbirth{
+    display : flex;
+    justify-content: center;
+    color : white;
+    font-size: 1.7em;
+    letter-spacing: 2px;
+    text-shadow: 0px 4px 10px rgba(255, 255, 255, 0.5);
+}
+
+.frame_enterbirth{
+    width: 701px;
+    height: 284px;
+    position: relative;
+}
+
+.frame_choosetheme{
+    width: 804px;
+    height: 656px;
+    position: relative;
+}
+
+.littleframe_enterbirth{
+    width: 701px;
+    height: 102px;
+    left: 0px;
+    top: 0px;
+    position: absolute
+}
+
+.littleframe_topline{
+    width: 804px;
+    height: 300px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Year{
+    width: 66px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    text-align: center; 
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+}
+
+.input_top{
+    width: 700px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: rgba(217, 217, 217, 0.20);
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.50);
+    border-radius: 15px;
+    border: 1px white solid;
+}
+
+.littleframerow_enterbirth{
+    width: 701px;
+    height: 102px;
+    left: 0px;
+    top: 182px;
+    position: absolute
+}
+
+.monthenterframe{
+    width: 330px;
+    height: 102px;
+    left: 0px;
+    top: 0px;
+    position: absolute
+}
+
+.Month{
+    width: 92px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px; 
+    letter-spacing: 1px;
+    word-wrap: break-word
+}
+
+.monthenterbox{
+    width: 330px;
+    height: 72px;
+    left: 0px;
+    top: 30px;
+    position: absolute;
+    background: rgba(217, 217, 217, 0.20);
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.50);
+    border-radius: 15px;
+    border: 1px white solid;
+}
+
+.Day{
+    width: 66px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1px;
+    word-wrap: break-word
+}
+
+.dayenterbox{
+    width: 330px;
+    height: 72px; 
+    left: 0px;
+    top: 30px;
+    position: absolute;
+    background: rgba(217, 217, 217, 0.20);
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.50);
+    border-radius: 15px;
+    border: 1px white solid;
+}
+
+.dayenterframe{
+    width: 330px;
+    height: 102px;
+    left: 371px;
+    top: 0px;
+    position: absolute;
+}
+
+.littleframe_input{
+    width: 700px;
+    height: 72px;
+    left: 1px;
+    top: 30px;
+    position: absolute
+}
+
 .sizedbox_toptitle{
     height: 80px;
     color:transparent;
 }
+
+.sizedbox_betweenpicture{
+    width: 4px;
+    color:transparent;
+}
+
+.sizedbox_betweenpictures{
+    height: 56px;
+    color:transparent;
+}
+
+.sizedbox_toptitle_setting{
+    height: 98px;
+    color:transparent;
+}
+
+.sizedbox_toptitleenter{
+    height: 180px;
+    color:transparent;
+}
+
+.sizedbox_underenterbirth{
+    height: 94px;
+    color:transparent;
+}
+
 
 .sizedbox_topicon{
     height: 80px;
@@ -53,8 +285,28 @@ body {
 }
 
 .sizedbox_undertitle{
-    height: 35px;
+    height: 36px;
     color:transparent;
+}
+
+.sizedbox_undertitle_setting{
+    height: 40px;
+    color:transparent;
+}
+
+.sizedbox_ddayundertitle{
+    height: 80px;
+    color:transparent;
+}
+
+.sizedbox_undertitleenter{
+    height: 60px;
+    color:transparent;
+}
+
+.sizedbox_underdescription{
+    height: 24px;
+    color: transparent;
 }
 
 .sizedbox_mainframe{
@@ -68,6 +320,14 @@ body {
 
 .mock_outframe{
     width: 436px;
+    height: 636px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.mock_outframe_triple{
+    width: 280px;
     height: 636px;
     display: flex;
     flex-direction: column;
@@ -100,6 +360,17 @@ body {
     border: 1px white solid;
 }
 
+.mock_inframe_triple{
+    width: 280px;
+    height: 546px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: rgba(217, 217, 217, 0.20);
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.50);
+    border-radius: 15px;
+    border: 1px white solid;
+}
 .sizedbox_betweenmain{
     width: 5000px;
     height : 100%;
@@ -109,12 +380,35 @@ body {
     align-items: center;
 }
 
+.sizedbox_betweenmain1{
+    width: 43px;
+    height : 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
 .dday_style1{
     display: flex;
     align-items: center;
     text-align: center;
     color: white;
     font-size: 30px;
+    font-family: 'YdestreetB';
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1.50px;
+    word-wrap: break-word
+}
+
+.dday_style2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
     font-family: 'YdestreetB';
     font-weight: 700;
     line-height: 20px;
@@ -145,8 +439,26 @@ body {
     align-items: center;
 }
 
+.sizedbox_leftdday_triple{
+    width: 22px;
+    height : 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .sizedbox_rightdday{
     width: 106px;
+    height : 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sizedbox_rightdday_triple{
+    width: 56px;
     height : 100%;
     display: flex;
     flex-direction: row;
@@ -167,7 +479,26 @@ body {
     word-wrap: break-word;
 }
 
+.date_style2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: 'YdestreetB';
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+}
+
 .border1_frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.border2_frame{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -182,10 +513,29 @@ body {
     align-items: center;
 }
 
+.sizedbox_leftborder2{
+    width: 20px;
+    height : 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .border1{
     display: flex;
     align-items: center;
     width: 371px;
+    height: 3px;
+    background: #D9D9D9;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 15px
+}
+
+.border2{
+    display: flex;
+    align-items: center;
+    width: 238px;
     height: 3px;
     background: #D9D9D9;
     box-shadow: 0px 0px 10px white;
